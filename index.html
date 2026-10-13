@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#05070A">
+
+    <meta name="description"
+          content="ZÉRODAY — Une plateforme futuriste pour construire le futur avec l'intelligence artificielle.">
+
+    <title>ZÉRODAY — Build The Future</title>
+
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Icônes -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Notre CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Effet d'arrière-plan -->
+    <div class="background-grid"></div>
+    <div class="background-glow"></div>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#accueil" class="logo">
+                <span class="logo-icon">Z</span>
+                <span>ZÉRO<span class="logo-light">DAY</span></span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Ouvrir le menu"
+                    aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="#produit">Produit</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#developpeurs">Développeurs</a>
+                <a href="#tarifs">Tarifs</a>
+
+                <a href="#contact" class="mobile-contact">
+                    Nous contacter
+                </a>
+
+            </div>
+
+            <a href="#contact" class="nav-button">
+                Commencer <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- SECTION HERO -->
+    <main>
+
+        <section class="hero container" id="accueil">
+
+            <div class="hero-content">
+
+                <div class="announcement">
+                    <span class="status-dot"></span>
+                    <span>NOUVEAUTÉ</span>
+                    <span class="announcement-divider">/</span>
+                    <span class="announcement-version">VERSION 2.0</span>
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+
+                <p class="eyebrow">
+                    L'INNOVATION COMMENCE ICI
+                </p>
+
+                <h1>
+                    BUILD THE
+                    <span class="neon-text">FUTURE</span>
+                    WITH <span class="outline-text">AI.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Imagine. Construis. Déploie.
+
+                    Une plateforme pensée pour les développeurs
+                    qui veulent transformer leurs idées en réalité
+                    grâce à l'intelligence artificielle.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#produit" class="button button-primary">
+                        Explorer la plateforme
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <button class="button button-secondary"
+                            id="demoButton">
+                        <i class="fa-solid fa-play"></i>
+                        Voir la démo
+                    </button>
+
+                </div>
+
+                <div class="hero-note">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    CONÇU POUR LES DÉVELOPPEURS
+                    <span>•</span>
+                    <i class="fa-solid fa-bolt"></i>
+                    PENSÉ POUR LA VITESSE
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Disponibilité visée</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>API</h3>
+                        <p>Intégration flexible</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>AI</h3>
+                        <p>Prêt pour l'innovation</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CARTE INTERACTIVE -->
+            <div class="hero-visual" id="developpeurs">
+
+                <div class="visual-orbit orbit-one"></div>
+                <div class="visual-orbit orbit-two"></div>
+
+                <div class="code-window">
+
+                    <div class="window-header">
+
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="window-title">
+                            zeroday.config
+                        </div>
+
+                        <span class="window-status">
+                            <span class="status-dot"></span>
+                            ONLINE
+                        </span>
+
+                    </div>
+
+                    <div class="code-content">
+
+                        <div class="code-line">
+                            <span class="line-number">01</span>
+                            <span class="code-purple">const</span>
+                            <span class="code-blue"> zeroday</span>
+                            =
+                            <span class="code-yellow">{</span>
+                        </div>
+
+                        <div class="code-line indent">
+                            <span class="line-number">02</span>
+                            <span class="code-blue">platform</span>:
+                            <span class="code-green">'AI'</span>,
+                        </div>
+
+                        <div class="code-line indent">
+                            <span class="line-number">03</span>
+                            <span class="code-blue">security</span>:
+                            <span class="code-green">true</span>,
+                        </div>
+
+                        <div class="code-line indent">
+                            <span class="line-number">04</span>
+                            <span class="code-blue">deployment</span>:
+                            <span class="code-green">'instant'</span>,
+                        </div>
+
+                        <div class="code-line indent">
+                            <span class="line-number">05</span>
+                            <span class="code-blue">future</span>:
+                            <span class="code-green">'unlimited'</span>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">06</span>
+                            <span class="code-yellow">}</span>;
+                        </div>
+
+                        <div class="code-line empty-line"></div>
+
+                        <div class="terminal-line">
+                            <span class="terminal-symbol">➜</span>
+                            <span> Initialisation de ZÉRODAY...</span>
+                        </div>
+
+                        <div class="terminal-line success-line">
+                            <i class="fa-solid fa-check-circle"></i>
+                            Système prêt.
+                        </div>
+
+                        <div class="terminal-line">
+                            <span class="terminal-symbol">➜</span>
+                            <span> Construisons le futur</span>
+                            <span class="typing-cursor"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="window-footer">
+
+                        <span>
+                            <i class="fa-solid fa-code"></i>
+                            DEV MODE
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-lock"></i>
+                            SECURE UI
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-wifi"></i>
+                            CONNECTED
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARTE FLOTTANTE -->
+                <div class="floating-card floating-card-top">
+
+                    <div class="floating-icon">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+
+                    <div>
+                        <p>AI ENGINE</p>
+                        <h4>Ready to build</h4>
+                    </div>
+
+                    <span class="live-indicator"></span>
+
+                </div>
+
+
+                <div class="floating-card floating-card-bottom">
+
+                    <div class="floating-icon purple-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+
+                    <div>
+                        <p>SECURITY</p>
+                        <h4>Protection first</h4>
+                    </div>
+
+                    <i class="fa-solid fa-check verified-icon"></i>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BANDE TECHNOLOGIQUE -->
+        <section class="technology-strip" id="solutions">
+
+            <div class="container technology-content">
+
+                <p>CONÇU POUR L'ÉCOSYSTÈME TECH</p>
+
+                <div class="technology-items">
+                    <span><i class="fa-brands fa-js"></i> JAVASCRIPT</span>
+                    <span><i class="fa-brands fa-html5"></i> HTML5</span>
+                    <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                    <span><i class="fa-solid fa-brain"></i> ARTIFICIAL INTELLIGENCE</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRODUITS -->
+        <section class="features container" id="produit">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">POUR ALLER PLUS LOIN</p>
+
+                <h2>
+                    TON PROCHAIN PROJET.
+                    <span class="neon-text">SANS LIMITES.</span>
+                </h2>
+
+                <p>
+                    Des outils imaginés pour t'aider à créer,
+                    organiser et faire évoluer tes projets.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+
+                    <span class="feature-number">01 / INTELLIGENCE</span>
+
+                    <h3>AI Integration</h3>
+
+                    <p>
+                        Prépare tes applications à intégrer
+                        des fonctionnalités d'intelligence artificielle.
+                    </p>
+
+                    <a href="#contact" class="feature-link">
+                        En savoir plus
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon blue-feature">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+
+                    <span class="feature-number">02 / PERFORMANCE</span>
+
+                    <h3>Fast Workflow</h3>
+
+                    <p>
+                        Organise ton travail et accélère
+                        le développement de tes projets.
+                    </p>
+
+                    <a href="#contact" class="feature-link">
+                        En savoir plus
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon purple-feature">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+
+                    <span class="feature-number">03 / SÉCURITÉ</span>
+
+                    <h3>Security First</h3>
+
+                    <p>
+                        Découvre les bonnes pratiques pour
+                        protéger tes applications et tes données.
+                    </p>
+
+                    <a href="#contact" class="feature-link">
+                        En savoir plus
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- APPEL À L'ACTION -->
+        <section class="cta-section container" id="contact">
+
+            <div class="cta-card">
+
+                <div class="cta-decoration"></div>
+
+                <p class="eyebrow">TON FUTUR COMMENCE MAINTENANT</p>
+
+                <h2>
+                    READY TO
+                    <span class="neon-text">BUILD?</span>
+                </h2>
+
+                <p>
+                    Chaque grande idée commence par une première étape.
+                    Fais de la tienne le début de quelque chose de grand.
+                </p>
+
+                <a href="mailto:contact@zeroday.example"
+                   class="button button-primary"
+                   id="contactButton">
+                    Nous contacter
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <small>
+                    Remplace l'adresse de démonstration par ton adresse
+                    professionnelle avant la publication.
+                </small>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#accueil" class="logo">
+                <span class="logo-icon">Z</span>
+                <span>ZÉRO<span class="logo-light">DAY</span></span>
+            </a>
+
+            <p>
+                © <span id="currentYear"></span> ZÉRODAY.
+                Construit pour le futur.
+            </p>
+
+            <a href="#accueil" class="back-to-top" aria-label="Retour en haut">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- FENÊTRE DE DÉMONSTRATION -->
+    <div class="modal" id="demoModal" aria-hidden="true">
+
+        <div class="modal-content" role="dialog"
+             aria-modal="true" aria-labelledby="modalTitle">
+
+            <button class="modal-close" id="closeModal"
+                    aria-label="Fermer">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-icon">
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+
+            <p class="eyebrow">APERÇU INTERACTIF</p>
+
+            <h2 id="modalTitle">
+                Bienvenue chez <span class="neon-text">ZÉRODAY</span>
+            </h2>
+
+            <p>
+                Imagine un espace où tes idées deviennent des projets.
+                Cette démonstration présente l'interface de la plateforme.
+            </p>
+
+            <div class="demo-status">
+                <span class="status-dot"></span>
+                Interface opérationnelle
+            </div>
+
+            <button class="button button-primary modal-action"
+                    id="exploreButton">
+                Explorer les fonctionnalités
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        // Année automatique
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+
+
+        // Menu mobile
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById("navLinks");
+
+        menuToggle.addEventListener("click", function () {
+
+            const isOpen = navLinks.classList.toggle("active");
+
+            menuToggle.setAttribute("aria-expanded", isOpen);
+
+            menuToggle.innerHTML = isOpen
+                ? '<i class="fa-solid fa-xmark"></i>'
+                : '<i class="fa-solid fa-bars"></i>';
+
+        });
+
+
+        // Fermer le menu après un clic sur un lien
+        document.querySelectorAll(".nav-links a").forEach(function (link) {
+
+            link.addEventListener("click", function () {
+
+                navLinks.classList.remove("active");
+
+                menuToggle.setAttribute("aria-expanded", "false");
+
+                menuToggle.innerHTML =
+                    '<i class="fa-solid fa-bars"></i>';
+
+            });
+
+        });
+
+
+        // Ouvrir la démo
+        const demoButton = document.getElementById("demoButton");
+        const demoModal = document.getElementById("demoModal");
+        const closeModal = document.getElementById("closeModal");
+        const exploreButton = document.getElementById("exploreButton");
+
+        function openDemo() {
+
+            demoModal.classList.add("active");
+            demoModal.setAttribute("aria-hidden", "false");
+
+            document.body.classList.add("modal-open");
+
+            closeModal.focus();
+
+        }
+
+        function closeDemo() {
+
+            demoModal.classList.remove("active");
+            demoModal.setAttribute("aria-hidden", "true");
+
+            document.body.classList.remove("modal-open");
+
+            demoButton.focus();
+
+        }
+
+        demoButton.addEventListener("click", openDemo);
+
+        closeModal.addEventListener("click", closeDemo);
+
+        demoModal.addEventListener("click", function (event) {
+
+            if (event.target === demoModal) {
+                closeDemo();
+            }
+
+        });
+
+        document.addEventListener("keydown", function (event) {
+
+            if (event.key === "Escape" &&
+                demoModal.classList.contains("active")) {
+
+                closeDemo();
+
+            }
+
+        });
+
+
+        // Bouton pour explorer les fonctionnalités
+        exploreButton.addEventListener("click", function () {
+
+            closeDemo();
+
+            document.getElementById("produit").scrollIntoView({
+                behavior: "smooth"
+            });
+
+        });
+
+
+        // Apparition progressive des cartes
+        const observer = new IntersectionObserver(function (entries) {
+
+            entries.forEach(function (entry) {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add("visible");
+
+                    observer.unobserve(entry.target);
+
+                }
+
+            });
+
+        }, {
+            threshold: 0.15
+        });
+
+        document.querySelectorAll(".feature-card, .section-heading")
+            .forEach(function (element) {
+
+                element.classList.add("reveal");
+
+                observer.observe(element);
+
+            });
+
+    </script>
+
+</body>
+</html>
